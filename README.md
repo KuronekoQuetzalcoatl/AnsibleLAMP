@@ -2,7 +2,7 @@ LAMP en Ubuntu
 Este playook instala un server LAMP  (Linux, Apache, MySQL and PHP) en Ubuntu
 
 1.- Configuraciones principales
-
+---
 mysql_root_password: the password for the MySQL root account.
 app_user: a remote non-root user on the Ansible host that will own the application files.
 http_host: your domain name.
@@ -19,5 +19,8 @@ http_host: "your_domain"
 http_conf: "your_domain.conf"
 http_port: "80"
 disable_default: true
+
+
 3. Comado para la ejecucion del playbook 
+---
 ansible-playbook --inventory inventory/hosts lamp_server.yml
