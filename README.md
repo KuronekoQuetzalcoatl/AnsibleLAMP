@@ -21,6 +21,6 @@ http_port: "80"
 disable_default: true
 
 
-3. Comado para la ejecucion del playbook 
+3.- Comado para la ejecucion del playbook 
 ---
 ansible-playbook --inventory inventory/hosts lamp_server.yml
