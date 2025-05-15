@@ -1,2 +1,2 @@
 [test-host]
-172.16.82.128 ansible_ssh_private_key_file=/Users/kuroneko/.ssh/ansible ansible_sudo_pass=Cris2303
+YOUR-IP ansible_ssh_private_key_file=Ansible_Key ansible_sudo_pass=YourPass
